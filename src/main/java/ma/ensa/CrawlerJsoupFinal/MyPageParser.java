@@ -58,9 +58,12 @@ public class MyPageParser {
 		String sql0 = "truncate record;";
 		test = db.runSql2(sql0);
 		
+		String langitude= null;
+		String latitude= null;
+		
 		int i=0;
 		//test D'execution
-		if(test){
+		if(!test){
 			System.out.println(sql0 + "  DONE !!");
 		}else{
 			System.out.println("ERREUR");
@@ -68,7 +71,7 @@ public class MyPageParser {
 		
 		
 		//On se connecte au site et on charge le document html
-		Document doc = Jsoup.connect("http://www.anahna.com/pharmacies-agadir-ca7-qa0.html").get();
+		Document doc = Jsoup.connect("http://www.anahna.com/pharmacies-agadir-ca7-qa0.html").timeout(10*1000).get();
 
 		//On récupère dans ce document la premiere balise ayant comme nom div et pour attribut class="right"
 		Elements links = doc.select("div .right"); 
@@ -108,31 +111,55 @@ public class MyPageParser {
 			System.out.println("relHref =\t"+relHref);
 
 
+			    //trouver coordonner depuis script
+				Document docs = Jsoup.connect(absHref).timeout(10000).get();
+				//on vise le dernier tag  'script'de la page
+				Element scriptElement = docs.select("script").last();
+
+				//charger tout le script
+				String jsCode = scriptElement.html();
+			    //System.out.println(jsCode);
+				
+			    //extraire la ligne qui nous interesse,dans ce cas les coordonées de la pharmacie
+			    jsCode = jsCode.substring(jsCode.indexOf('['),jsCode.indexOf(']'));	
+			    //System.out.println(jsCode);
+			    
+			    //il existe quelque pharmacies sont coordonnées qui declanche une exeption dans le traitement
+			    if (jsCode.length()> 6)
+			    {
+			    
+			     langitude = jsCode.substring(1,jsCode.indexOf(','));
+			     latitude = jsCode.substring(jsCode.indexOf(','));
+			    
+			     latitude = latitude.substring(2);
+			    
+			    //System.out.println("langitude"+langitude);
+			    
+			    //System.out.println("latitude"+latitude);
+			    }else
+			    	System.out.println("impossible d'extraire,contenu introuvale !!!!!!!!!!!!!!!!!!!!!!!!!");
+			    
+			
 			//preparere la requet sql pour stocker dans la base de donnée
 
-			String sql = "insert into record (nom,tel,adress,URL)" + "values(?,?,?,?)";
+			String sql = "insert into record (nom,tel,adress,URL,lati,lang)" + "values(?,?,?,?,?,?)";
 			
-			//String sqlName = "INSERT INTO record " + "(nom,tel,adress) VALUES " + "(`nomPharmacie`,`tel`,`adress`);";
-			//test = db.runSql2(sql);
-
-
+			
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3333/convertisseur","root", "taha");
 			PreparedStatement preparedStatement = conn.prepareStatement(sql);
 			preparedStatement.setString(1, nomPharmacie);
 			preparedStatement.setString(2, tel);
 			preparedStatement.setString(3, adress);
 			preparedStatement.setString(4, absHref);
+			preparedStatement.setString(5, langitude);
+			preparedStatement.setString(6, langitude);
 			preparedStatement.executeUpdate();
 
-			//i++;
-			//			if (test){
-			//				System.out.println("nom stocker dans la table avec succé");
-			//			}else{
-			//				System.out.println("ERREUR SQL");
-			//			}
-			//System.out.println(titre);
+			i++;
+			
 		}
 
+		
 	}
 }
 
