@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/Downloads/jsoup-1.8.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/Downloads/jsoup-1.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/aether-api-0.9.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/aether-connector-wagon-0.9.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/aether-impl-0.9.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/aether-spi-0.9.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/aether-util-0.9.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/cdi-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/jsoup-1.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-aether-provider-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-artifact-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-compat-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-core-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-embedder-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-model-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-model-builder-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-plugin-api-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-repository-metadata-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-settings-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/maven-settings-builder-3.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/org.eclipse.sisu.inject-0.0.0.M5.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/org.eclipse.sisu.plexus-0.0.0.M5.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/plexus-cipher-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/plexus-component-annotations-1.5.5.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/plexus-interpolation-1.19.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/plexus-sec-dispatcher-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/plexus-utils-3.0.17.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/sisu-guice-3.1.3-no_aop.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/slf4j-simple-1.7.5.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/wagon-file-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/wagon-http-2.6-shaded.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/wagon-http-shared-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/apache-maven-3.2.3/lib/wagon-provider-api-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/cglib-nodep-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/commons-lang.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/dozer-5.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/ejb3-persistence-1.0.2.GA.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/hibernate-annotations-3.4.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/hibernate-commons-annotations-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/hibernate-core-3.3.2.GA.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jackson-core-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jackson-jaxrs-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jackson-mapper-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jackson-xc-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/javassist-3.7.ga.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jersey-client-1.18.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jersey-core-1.18.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jersey-json-1.18.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jersey-server-1.18.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jersey-servlet-1.18.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jstl-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/junit-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/maven-archetype-j2ee-simple-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/maven-archetype-quickstart-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-aop-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-context-support-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-jdbc-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-orm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-security-config-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-security-core-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-security-taglibs-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-security-web-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-tx-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-web-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/spring-webmvc-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/jars_rs_sp_hib/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="lib" path="D:/tomcat v8/crawler4j jars/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/tomcat v8/crawler4j jars/tika-core-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/tomcat v8/crawler4j jars/tika-parsers-1.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
