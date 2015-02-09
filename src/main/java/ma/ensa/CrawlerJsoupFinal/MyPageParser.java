@@ -155,6 +155,8 @@ public class MyPageParser {
 			preparedStatement.setString(6, langitude);
 			preparedStatement.executeUpdate();
 
+                        //incrementation de l'indice de page get(i) du document charger des URLs qui contiennent des
+                        //coordonées de geolocalisation des pharmacies
 			i++;
 			
 		}
